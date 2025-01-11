@@ -1,0 +1,177 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Container */
+.main-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+h1 { text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+  background: #0a0a0a; 
+  color: #020202;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+}
+.container-fluid {
+
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Custom Styles for Register Button */
+.btn-register {
+  background-color: #28a745; /* Green background */
+  border-color: #28a745;     /* Green border */
+  color: #fff;                /* White text */
+  padding: 0.75rem 1.5rem;    /* Custom padding */
+  font-size: 1.1rem;          /* Increased font size */
+  border-radius: 0.3rem;      /* Slightly rounded corners */
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn-register:hover {
+  background-color: #218838; /* Darker green on hover */
+  border-color: #1e7e34;     /* Darker border on hover */
+  transform: scale(1.05);    /* Slightly enlarge on hover */
+}
+
+/* Custom Styles for Login Button */
+.btn-login {
+  background-color: transparent; /* Transparent background */
+  border-color: #6c757d;         /* Grey border */
+  color: #6c757d;                /* Grey text */
+  padding: 0.75rem 1.5rem;       /* Custom padding */
+  font-size: 1.1rem;             /* Increased font size */
+  border-radius: 0.3rem;         /* Slightly rounded corners */
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn-login:hover {
+  background-color: #6c757d; /* Grey background on hover */
+  border-color: #6c757d;     /* Grey border on hover */
+  color: #fff;                /* White text on hover */
+  transform: scale(1.05);     /* Slightly enlarge on hover */
+}
+
+.project {
+
+  
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    padding: 6px 12px; 
+    margin: 0 8px 8px 0; 
+    background-color: #f0f0f0; 
+    border-radius: 4px; 
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+
+  
+ 
+ 
+ /* CSS */
+ .button-23 {
+   background-color: #FFFFFF;
+   border: 1px solid #222222;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #222222;
+   cursor: pointer;
+   display: inline-block;
+   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 20px;
+   margin: 0;
+   outline: none;
+   padding: 13px 23px;
+   position: relative;
+   text-align: center;
+   text-decoration: none;
+   touch-action: manipulation;
+   transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+   user-select: none;
+   -webkit-user-select: none;
+   width: auto;
+ }
+ 
+ .button-23:focus-visible {
+   box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+   transition: box-shadow .2s;
+ }
+ 
+ .button-23:active {
+   background-color: #F7F7F7;
+   border-color: #000000;
+   transform: scale(.96);
+ }
+ 
+ .button-23:disabled {
+   border-color: #DDDDDD;
+   color: #DDDDDD;
+   cursor: not-allowed;
+   opacity: 1;
+ }
+ .container-fluid py-6 bg-light {
+  padding: 0px ;
+ }
+
+.form-p{
+
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ 

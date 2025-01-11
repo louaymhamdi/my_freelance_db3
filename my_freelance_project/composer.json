@@ -1,0 +1,17 @@
+{
+    "name": "mhamd/my_freelance_project",
+    "description": "CHALLENGE WEB PROJET FREE LANCE",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"        
+        }
+    },
+    "authors": [
+        {
+            "name": "N"
+        }
+    ],
+    "require": {}
+}
